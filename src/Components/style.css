@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.chart-card{
+    border: 1px solid #000;
+    height: 500px;
+    width: 48%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px;
+    min-height: 200px;
+}
+
+table{
+    width: 98%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+input[type=text]{
+    padding: 5px;
+    width: 80%;
+    min-width: 100px;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    padding: 5px;
+    width: 80px;
+    font-size: 16px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
